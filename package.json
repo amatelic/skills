@@ -1,0 +1,23 @@
+{
+  "name": "skills",
+  "version": "1.0.0",
+  "description": "A collection of reusable skills for AI assistants",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "list": "node scripts/list-skills.js",
+    "validate": "node scripts/validate.js"
+  },
+  "keywords": [
+    "skills",
+    "ai",
+    "assistant",
+    "prompts",
+    "instructions"
+  ],
+  "author": "",
+  "license": "MIT",
+  "directories": {
+    "skills": "./skills"
+  }
+}
