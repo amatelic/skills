@@ -2,10 +2,20 @@
 
 A collection of reusable skills for AI assistants. Each skill is a self-contained module with instructions and best practices for specific tasks.
 
+**Repository**: https://github.com/amatelic/skills
+
 ## Installation
+
+### From npm
 
 ```bash
 npm install skills
+```
+
+### From GitHub
+
+```bash
+npm install amatelic/skills
 ```
 
 ## Usage
@@ -21,7 +31,19 @@ Example:
 npx skills@latest add write-tests
 ```
 
-This will download the skill and add it to your project's `.claude/skills/` directory.
+This will download the skill and add it to your project's `.codex/skills/` directory.
+
+### Installing a Skill Locally
+
+```bash
+npx skills@latest add <skill-name> --local
+```
+
+### Updating Skills
+
+```bash
+npx skills@latest update
+```
 
 ### Listing Available Skills
 
