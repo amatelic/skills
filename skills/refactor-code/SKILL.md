@@ -170,7 +170,8 @@ Update to modern patterns:
 - Use arrow functions where appropriate
 - Use destructuring
 - Use async/await instead of callbacks
-- Use optional chaining (`?.`) and nullish coalescing (`??`)
+- Don't use optional chaining (`?.`) something in the design is wrong when we use that in the code 
+- use nullish coalescing (`??`)
 
 **Python**:
 - Use f-strings instead of `.format()` or `%`
